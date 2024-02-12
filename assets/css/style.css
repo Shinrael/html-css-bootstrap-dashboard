@@ -110,5 +110,9 @@ header ul{
     padding-left: 10px;
   }
 
+  .me-container{
+    width: calc(100% - 150px);
+  }
+
   
 }
