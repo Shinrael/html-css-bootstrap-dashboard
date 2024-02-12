@@ -25,5 +25,16 @@ header{
 @media screen and (min-width:1200px){
   .sidebar{
     width: 150px;
+    align-items: flex-start !important;
   }
+
+  .sidebar ul li span{
+    padding-left: 5px;
+  }
+
+  .sidebar ul li p{
+    padding-left: 10px;
+  }
+
+  
 }
