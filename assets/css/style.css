@@ -172,6 +172,26 @@ header ul{
     align-items: center;
     justify-content: center;
   }
+
+  .body-next-class .name-class{
+    width: 40%;
+  }
+
+  .body-next-class .date-class{
+    width: 20%;
+  }
+
+  .body-next-class .roi-class{
+    width: 10%;
+  }
+  
+  .body-next-class .status-class{
+    width: 10%;
+  }
+  
+  .body-next-class .action-class{
+    width: 20%;
+  }
  }
 
 @media screen and (min-width:1200px){
@@ -219,5 +239,25 @@ header ul{
 
   .head-main .container-fluid:nth-of-type(2){  
     width: 52%;
+  }
+
+  .body-next-class .name-class{
+    width: 50%;
+  }
+
+  .body-next-class .date-class{
+    width: 15%;
+  }
+
+  .body-next-class .roi-class{
+    width: 10%;
+  }
+  
+  .body-next-class .status-class{
+    width: 10%;
+  }
+  
+  .body-next-class .action-class{
+    width: 15%;
   }
 }
