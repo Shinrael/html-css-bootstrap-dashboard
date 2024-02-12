@@ -6,6 +6,13 @@ body{
   border: 1px solid black;
 }
 
+.icon-html{
+  color: white;
+  background-color: #f26551;
+  border-radius: 50%;
+  padding: 4px;
+}
+
 /****************************
             CSS
  ****************************/
@@ -74,6 +81,8 @@ header ul{
 
 /* MAIN */
 
+/* Head Main */
+
 .me-container{
   width: calc(100% - 70px);
   height: calc(100vh - 70px);
@@ -93,6 +102,60 @@ header ul{
   border-radius: 20px;
 }
 
+/* 4 Tabs */
+
+.col-big,
+.col-little{
+  width: 98%;
+  border-radius: 5px;
+}
+
+.head-next-class{
+  height: 50px;
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  border-end-start-radius: 0px;
+  border-end-end-radius: 0px;
+  border-bottom: none;
+}
+
+.container-100{
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.body-next-class{
+  width: 98%;
+  background-color: white;
+}
+
+.body-next-class .name-class{
+  width: 50%;
+}
+
+.body-next-class .status-class{
+  width: 15%;
+}
+
+.body-next-class .action-class{
+  width: 35%;
+}
+
+.action-class i{
+  font-size: .8rem;
+}
+
+.action-class .action-button{
+  padding: 2px 9px;
+}
+
+.button-section{
+  padding-bottom: 10px;
+}
 
 /**************************** 
           RESOLUTION
