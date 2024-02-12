@@ -1,0 +1,29 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+header{
+  background-color: #f8f9fa;
+  height: 70px;
+}
+
+
+.sidebar{
+  width: 70px;
+  height: calc(100vh - 70px);
+  background-color: #051e34;
+  background-image: url(../img/sidebar-bg.png);
+  color: white;
+}
+
+/* Resolution */
+
+@media screen and (min-width:1200px){
+  .sidebar{
+    width: 150px;
+  }
+}
