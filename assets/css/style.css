@@ -57,6 +57,10 @@ header ul{
   padding-top: 15px;
 }
 
+.fa-bell{
+  color: #ff8f00;
+}
+
 /* SIDEBAR */
 
 
@@ -75,9 +79,37 @@ header ul{
   height: calc(100vh - 70px);
 }
 
+.head-main{
+  height: 260px;
+  background-color: #1b72e8;
+}
+
+.head-main .container-fluid{
+  height: calc(100% / 3);
+}
+
+.badge-dark-blue{
+  background-color: #165bba;
+  border-radius: 20px;
+}
+
+
 /**************************** 
           RESOLUTION
  ****************************/
+
+ @media screen and (min-width:768px){
+  .head-main{
+    height: 140px;
+  }
+
+  .head-main .container-fluid{
+    height: 100%;
+    width: calc(100% / 3);
+    align-items: center;
+    justify-content: center;
+  }
+ }
 
 @media screen and (min-width:1200px){
   header .logo-container{
@@ -114,5 +146,15 @@ header ul{
     width: calc(100% - 150px);
   }
 
-  
+  .head-main{
+    height: 125px;
+  }
+
+  .head-main .container-fluid{
+    align-items: flex-start;
+  }
+
+  .head-main .container-fluid:nth-of-type(2){  
+    width: 52%;
+  }
 }
