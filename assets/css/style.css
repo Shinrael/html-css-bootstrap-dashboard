@@ -68,6 +68,13 @@ header ul{
   color: white;
 }
 
+/* MAIN */
+
+.me-container{
+  width: calc(100% - 70px);
+  height: calc(100vh - 70px);
+}
+
 /**************************** 
           RESOLUTION
  ****************************/
