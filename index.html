@@ -18,23 +18,38 @@
 </head>
 <body>
   <!-- Header -->
-  <header class="d-flex align-items-center">
-    <div class="container-fluid debug h-75 bg-white">
-      <div class="row">
-        <div class="debug col-2">LOGO</div>
-        <div class="debug col-9">BARRA dI RICERCA</div>
-        <div class="debug col-1">
-          <ul class="list-unstyled d-flex justify-content-between">
+
+  <header class="debug d-flex align-items-center">
+    <div class="container-fluid d-flex h-75 bg-white">
+      
+      <div class="logo-container">
+        <div class="img-container d-flex justify-content-center align-items-center ">
+            <img src="assets/img/mobile-logo.png" class="img-fluid d-xl-none" alt="logo">
+            <img src="assets/img/logo.svg" class="d-none d-xl-block img-fluid" alt="logod">
+        </div>  
+      </div>
+
+      <div class="search-container d-flex align-items-center ">
+        <div class="glass d-flex align-items-center justify-content-center "><i class="fa-solid fa-magnifying-glass"></i></div>
+            <input type="text" placeholder="Prova a cercare: Lezioni di Laravel">
+      </div>
+      
+
+      <div class="menu-container">
+          <ul class="list-unstyled d-flex justify-content-around">
             <li class="d-none d-xl-block"><i class="fa-solid fa-list"></i></li>
             <li class="d-none d-xl-block"><i class="fa-solid fa-circle-question"></i></li>
             <li class="d-none d-xl-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
             <li class=""><i class="fa-solid fa-bell"></i></li>
           </ul>
-        </div>
       </div>
+      
     </div>
   </header>
+
   <!-- /Header -->
+
+
   <main>
     <div class="wrapper d-flex">
       <div class="sidebar d-flex flex-column justify-content-between align-items-center">
