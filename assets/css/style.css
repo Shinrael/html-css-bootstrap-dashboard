@@ -83,6 +83,10 @@ header ul{
   color: white;
 }
 
+.sidebar li:hover{
+  background-color: lightgray;
+}
+
 /* MAIN */
 
 /* Head Main */
@@ -104,6 +108,10 @@ header ul{
 .badge-dark-blue{
   background-color: #165bba;
   border-radius: 20px;
+}
+
+.head-main .badge:hover{
+  background-color: #0d3770;
 }
 
 /* 4 Tabs */
