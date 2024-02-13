@@ -35,13 +35,20 @@
       </div>
       
 
-      <div class="menu-container">
-          <ul class="list-unstyled d-flex justify-content-around">
-            <li class="d-none d-xl-block"><i class="fa-solid fa-list"></i></li>
-            <li class="d-none d-xl-block"><i class="fa-solid fa-circle-question"></i></li>
-            <li class="d-none d-xl-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
-            <li class=""><i class="fa-solid fa-bell"></i></li>
-          </ul>
+      <div class="menu-container d-flex align-items-center justify-content-around">
+          <div class="list-unstyled d-flex justify-content-around align-items-center w-100">
+            <div class="d-none d-xl-block"><i class="fa-solid fa-list"></i></div>
+            <div class="d-none d-xl-block"><i class="fa-solid fa-circle-question"></i></div>
+            <div class="d-none d-xl-block"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div class="dropdown">
+              <a href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-bell"></i></a>
+              <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button">Profilo</button></li>
+                <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                <li><button class="dropdown-item" type="button">Logout</button></li>
+              </ul>
+            </div>
+          </div>
       </div>
       
     </div>
