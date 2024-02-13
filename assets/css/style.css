@@ -156,6 +156,16 @@ header ul{
   padding-bottom: 10px;
 }
 
+/* TODO */
+
+.body-todo .card label{
+  font-size: .9rem;
+}
+
+.body-todo .card .card-body{
+  border-bottom: 1px solid #ededed;
+}
+
 /**************************** 
           RESOLUTION
  ****************************/
