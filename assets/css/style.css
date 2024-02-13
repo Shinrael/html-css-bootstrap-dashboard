@@ -85,6 +85,7 @@ header ul{
 
 .sidebar li:hover{
   background-color: lightgray;
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -112,6 +113,7 @@ header ul{
 
 .head-main .badge:hover{
   background-color: #0d3770;
+  cursor: pointer;
 }
 
 .head-main .offcanvas{
