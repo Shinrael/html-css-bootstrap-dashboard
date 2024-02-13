@@ -130,29 +130,25 @@ header ul{
   border-top-right-radius: 0px;
 }
 
-.body-next-class{
-  width: 98%;
-  background-color: white;
+
+.table-next-class .name-class{
+  width: 60%;
 }
 
-.body-next-class .name-class{
-  width: 50%;
-}
-
-.body-next-class .status-class{
+.table-next-class .status-class{
   width: 15%;
 }
 
 .body-next-class .action-class{
-  width: 35%;
+  width: 25%;
 }
 
-.action-class i{
+.action-button i{
   font-size: .8rem;
 }
 
-.action-class .action-button{
-  padding: 2px 9px;
+.action-button{
+  padding: 2px 8px;
 }
 
 .button-section{
@@ -191,24 +187,24 @@ header ul{
     justify-content: center;
   }
 
-  .body-next-class .name-class{
-    width: 40%;
+  .table-next-class .name-class{
+    width: 45%;
   }
 
-  .body-next-class .date-class{
+  .table-next-class .date-class{
     width: 20%;
   }
 
-  .body-next-class .roi-class{
+  .table-next-class .roi-class{
     width: 10%;
   }
   
-  .body-next-class .status-class{
+  .table-next-class .status-class{
     width: 10%;
   }
   
-  .body-next-class .action-class{
-    width: 20%;
+  .table-next-class .action-class{
+    width: 15%;
   }
  }
 
@@ -259,24 +255,24 @@ header ul{
     width: 52%;
   }
 
-  .body-next-class .name-class{
-    width: 50%;
+  .table-next-class .name-class{
+    width: 55%;
   }
 
-  .body-next-class .date-class{
+  .table-next-class .date-class{
     width: 15%;
   }
 
-  .body-next-class .roi-class{
+  .table-next-class .roi-class{
     width: 10%;
   }
   
-  .body-next-class .status-class{
+  .table-next-class .status-class{
     width: 10%;
   }
   
-  .body-next-class .action-class{
-    width: 15%;
+  .table-next-class .action-class{
+    width: 10%;
   }
 
   
