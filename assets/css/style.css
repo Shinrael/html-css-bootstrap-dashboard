@@ -104,13 +104,12 @@ header ul{
 
 /* 4 Tabs */
 
-.col-big,
-.col-little{
-  width: 98%;
-  border-radius: 5px;
-}
 
-.head-next-class{
+
+.head-next-class,
+.head-faq,
+.head-todo,
+.head-graph{
   height: 50px;
   width: 100%;
   background-color: #f7f7f7;
