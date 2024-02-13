@@ -114,6 +114,10 @@ header ul{
   background-color: #0d3770;
 }
 
+.head-main .offcanvas{
+  width: 100vw;
+}
+
 /* 4 Tabs */
 
 
@@ -217,6 +221,7 @@ header ul{
  }
 
 @media screen and (min-width:1200px){
+
   header .logo-container{
     width: 160px;
   }
@@ -261,6 +266,10 @@ header ul{
 
   .head-main .container-fluid:nth-of-type(2){  
     width: 52%;
+  }
+
+  .head-main .offcanvas{
+    width: 50vw;
   }
 
   .table-next-class .name-class{

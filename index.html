@@ -100,7 +100,73 @@
 
             <div class="container-fluid d-flex align-items-center order-md-3">
               <p class="pe-3">Nuovo Studente</p>
-              <button type="button" class="btn btn-outline-light mb-3">+</button>
+              <button type="button" class="btn btn-outline-light mb-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <form class="row g-3">
+                    <div class="col-12 col-md-6">
+                      <label for="inputName4" class="form-label">Nome</label>
+                      <input type="text" class="form-control" id="inputName4">
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="inputSurname4" class="form-label">Cognome</label>
+                      <input type="text" class="form-control" id="inputSurname4">                      
+                    </div>
+                    <div class="mb-3 col-12 col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <div class="input-group">
+                        <span class="input-group-text" id="inputEmail4">@</span>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="text" class="form-control" id="inputPassword4">                      
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress4" class="form-label">Indirizzo</label>
+                      <input type="text" class="form-control" id="inputAddress4">                      
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <label for="inputCity4" class="form-label">Città</label>
+                      <input type="text" class="form-control" id="inputCity4">                      
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <label for="inputState4" class="form-label">Stato</label>
+                      <select id="inputState" class="form-select">
+                        <option selected="">Scegli</option>
+                        <option>Italia</option>
+                        <option>Francia</option>
+                        <option>Germania</option>
+                        <option>Spagna</option>
+                        <option>Inghilterra</option>
+                      </select>                    
+                    </div>
+                    <div class="col-12 col-md-2">
+                      <label for="inputCap4" class="form-label">CAP</label>
+                      <input type="text" class="form-control" id="inputCap4">                      
+                    </div>
+                    <div class="input-group col-12">
+                      <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">      
+                    </div>
+                    <div class="form-check ms-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Seleziona per proseguire
+                      </label>
+                    </div>
+                    <div>
+                      <button type="button" class="btn btn-primary">Salva</button>
+                      <button type="reset" class="btn btn-warning text-black">Svuota</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
 
             <div class="container-fluid d-flex flex-column order-md-1">
