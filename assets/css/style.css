@@ -13,6 +13,10 @@ body{
   padding: 4px;
 }
 
+.row-grey{
+  background-color: #f8f9fa;
+}
+
 /****************************
             CSS
  ****************************/
@@ -108,8 +112,7 @@ header ul{
 
 .head-next-class,
 .head-faq,
-.head-todo,
-.head-graph{
+.head-todo{
   height: 50px;
   width: 100%;
   background-color: #f7f7f7;
@@ -164,6 +167,12 @@ header ul{
 
 .body-todo .card .card-body{
   border-bottom: 1px solid #ededed;
+}
+
+/* GRAPH */
+
+.graph-container .card ul li{
+  font-size: .8rem;
 }
 
 /**************************** 
